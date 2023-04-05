@@ -27,7 +27,7 @@ spec:
     spec:
       chart: podinfo
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: podinfo
   values:
     replicaCount: 2
